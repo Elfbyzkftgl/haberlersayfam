@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body style="background-color:yellow;">
+    <header>HABERLER.COM</header>
+
+    <nav>
+      <ul>
+        <li><a style="color:black;" href="index.html">Anasayfa</a></li>
+        <li><a style="color:blue;" href="ekonomi.html">Ekonomi</a></li>
+        <li><a style="color:rgb(255,96,44);" href="siyaset.html">Siyaset</a></li>
+        <li><a style="color:black;" href="magazin.html">Magazin</a></li>
+        <li><a style="color:black;" href="spor.html">Spor</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h1 style="background-color:tomato;">Anasayfa</h1>
+    </article>
+    <br>
+    <form action="kullanicilar.html">
+      <h3 style="color:blue;background-color:pink;">Kullanıcı Kayıt Formu</h3>
+      <label  style="background-color:blue;">İsim:</label>
+      <input name="isim" type="text" required/>
+      <br>
+      <label style="background-color:pink;">Şifre:</label>
+      <input name="sifre" type="password" required/>
+      <br>
+      <label style="background-color:purple;">Cinsiyet:</label>
+      <select>
+        <option>Kadın</option>
+        <option>Erkek</option>
+      </select>
+
+      <br>
+
+      <label>Sevdiğiniz araba markaları:</label>
+      <select name="cars" size="5" multiple>
+        <option>BMW</option>
+        <option>Mercedes</option>
+        <option>Tofaş</option>
+        <option>Renault</option>
+        <option>Tesla</option>
+        <option>citroen</option>
+        <option>Togg</option>
+      </select>
+      <br>
+      <br>
+      <label>Görüş Ve Önerileriniz</label>
+      <textarea name="gorusler" rows="5" cols="35"></textarea>
+      <br>
+      <input type="submit" value="kaydet"/>
+      <button onClick="alert('Tıklandı');">Kaydedin</button>
+    </form>
+    <br>
+    <footer>Copyright &copy;Elif Beyza Köftegül</footer>
+  </body>
+</html>
